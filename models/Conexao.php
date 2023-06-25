@@ -6,7 +6,7 @@ class Conexao {
     private $host = 'localhost'; // Endereço do servidor MySQL
     private $db_name = 'neo_locadora'; // Nome do banco de dados
     private $username = 'root'; // Usuário do banco de dados
-    private $password = '!'; // Senha do banco de dados
+    private $password = ''; // Senha do banco de dados
     private $port = '3306';
     private $conn; // Objeto de conexão PDO
 

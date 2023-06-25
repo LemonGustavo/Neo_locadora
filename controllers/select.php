@@ -12,7 +12,7 @@
         $conexao->insert($ator);
     }
 
-    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         if (isset($_POST['apagar']) && $_POST['apagar'] === 'Apagar') {
             $ator_id = $_POST['ator_id'];
             $conexao->delete($ator_id);

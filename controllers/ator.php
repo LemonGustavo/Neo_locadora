@@ -30,7 +30,7 @@
         <input type="submit" name="submit" value="Inserir">
         <input type="reset" value="Limpar"/>
         <hr>
-    </form>
+</form>
 </div>
 
 

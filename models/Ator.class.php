@@ -5,7 +5,7 @@ Class Ator {
     private $ultimo_nome;
     private $ultima_atualizacao;
 
-	public function __construct($ator_id, $primeiro_nome, $ultimo_nome) {
+	public function __construct ($ator_id, $primeiro_nome, $ultimo_nome) {
 	$this->ator_id = $ator_id;
 	$this->primeiro_nome = $primeiro_nome;
 	$this->ultimo_nome = $ultimo_nome;
